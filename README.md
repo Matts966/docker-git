@@ -6,5 +6,5 @@ Now, play with Vlang using `demo.sh` !
 
 ```
 $ git clone https://github.com/Matts966/docker-git.git
-$ ./demo.sh
+$ docker-git/demo.sh
 ```

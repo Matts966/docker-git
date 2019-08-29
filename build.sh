@@ -2,4 +2,6 @@
 cd `dirname $0`
 cp -r ~/.ssh ./
 docker build -t docker-git .
-rm -rf .ssh
+if [[ $(pwd) != $HOME ]]; then 
+  rm -rf .ssh
+fi
